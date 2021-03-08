@@ -1,0 +1,29 @@
+body{
+
+	background-color: lightblue;
+}
+
+.c{
+
+   width: 300px;
+   height: 200px;
+   background-color: white;
+   position: absolute;
+   left: 40%;
+   top: 30%;
+   color: blue;
+   text-align: center; 
+   font-family: Agency FB;
+   font-size: 30px;
+
+}
+
+.tt{
+	color: red;
+	font-family: Agency FB;
+	font-size: 30px;
+	position: absolute;
+	left: 47%;
+	top: 37%;
+
+}

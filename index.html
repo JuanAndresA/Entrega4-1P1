@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 1</title>
+	<link rel="stylesheet" type="text/css" href="est.css">
+	<script type="text/javascript">
+		var x=10;
+	</script>
+</head>
+<body onload="hola()">
+<div class="c" id="c"></div>
+<p class="tt">ACTVIDAD 1</p>
+<script type="text/javascript">
+
+function conteo2(){
+	
+	      	x=x-1;
+	      	c=document.getElementById('c');
+	      	c.innerHTML=x;
+	      	
+        if(x==0){
+               
+            clearInterval(a);
+	      	c.innerHTML="FIN";  
+
+        }
+	
+	   
+}
+	      
+	
+function conteo(){
+	        
+	     a=setInterval(conteo2,1000);
+
+			}
+	
+
+	function hola(){
+
+		
+	     c.innerHTML="HOLA";
+	    setTimeout(conteo,5000);
+
+	    
+
+	}
+
+
+</script>
+
+
+
+</body>
+
+</html>
